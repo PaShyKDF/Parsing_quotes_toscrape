@@ -11,11 +11,7 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```bash
-git clone git@github.com:PaShyKDF/UrlCut.git
-```
-
-```bash
-cd yacut
+git clone git@github.com:PaShyKDF/Parsing_quotes_toscrape.git
 ```
 
 Cоздать и активировать виртуальное окружение:
@@ -45,7 +41,9 @@ python3 -m pip install --upgrade pip
 ```bash
 pip install -r requirements.txt
 ```
+
 Запустить сбор данных:
+
 ```bash
 scrapy crawl quotes_toscrape_spider
 ```
